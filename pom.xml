@@ -2,19 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <!--
   <parent>
     <groupId>com.github.jinahya</groupId>
     <artifactId>jinahya-parent</artifactId>
     <version>0.8.5</version>
   </parent>
+  -->
 
+  <groupId>com.github.BobbyWibowo</groupId>
   <artifactId>random-org-json-rpc</artifactId>
   <version>0.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>${project.artifactId}</name>
   <description>RandomOrg / JSON-RPC-Java as Mavenized</description>
-  <url>https://github.com/jinahya/${project.artifactId}</url>
+  <url>https://github.com/BobbyWibowo/${project.artifactId}</url>
   <inceptionYear>2020</inceptionYear>
   <organization>
     <name>Jinahya, Inc.</name>
@@ -28,14 +31,14 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:jinahya/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:jinahya/${project.artifactId}.git</developerConnection>
-    <url>https://github.com/jinahya/${project.artifactId}</url>
+    <connection>scm:git:git@github.com:BobbyWibowo/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:BobbyWibowo/${project.artifactId}.git</developerConnection>
+    <url>https://github.com/BobbyWibowo/${project.artifactId}</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/jinahya/${project.artifactId}/issues</url>
+    <url>https://github.com/BobbyWibowo/${project.artifactId}/issues</url>
   </issueManagement>
 
   <properties>
